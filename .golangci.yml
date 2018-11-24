@@ -1,0 +1,6 @@
+# https://github.com/golangci/golangci/wiki/Configuration
+
+service:
+  project-path: github.com/yahoo/yfuzz
+  prepare:
+    - make deps
